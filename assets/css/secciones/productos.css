@@ -1,0 +1,95 @@
+.productos__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+
+    border: 1px solid gray;
+}
+
+.galeria__productos {
+    width: 100%;
+}
+
+.galeria__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 3rem;
+}
+
+.galeria__titulo {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    color: #464646
+}
+
+.ver__todo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #2A7AE4;
+    text-decoration: none;
+    display: flex;
+}
+
+.ico-flecha {
+    margin-left: 0.5rem;
+    align-self: center;
+}
+.galeria__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    column-gap: 1.5rem;
+
+
+}
+.card__producto {
+    width: 15%;
+    height: 30rem;
+    /* margin: 1rem 2rem; */
+
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    row-gap: 2rem;
+}
+
+.card__img {
+    /* width: 5rem; */
+    width: 100%;
+    height: 50%;
+    display: block;
+    object-fit: cover;
+
+}
+
+.card__title {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #464646;
+
+}
+
+.card__descripcion {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #464646;
+}
+
+.card__link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    
+    text-decoration: none;
+}

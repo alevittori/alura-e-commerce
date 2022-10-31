@@ -1,0 +1,123 @@
+.admin__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    width: 25rem;
+    height: 5rem;
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-decoration: none;
+
+    color: #2A7AE4;
+
+}
+
+.admin__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E5E5;
+    padding: 2rem auto;
+}
+
+.admin__form {
+    width: 90%;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.admin__title {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    color: #464646;
+}
+
+.input__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.admin__btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border: none;
+    height: 51px;
+    background: #2A7AE4;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #FFFFFF;
+}
+
+.admin__section .admin__form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #A2A2A2;
+}
+
+.imagen__url,
+.categoria,
+.nombre__producto,
+.precio__producto,
+.descripcion__producto {
+    height: 5rem;
+    border: none;
+    border-radius: 0.4rem;
+
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+
+    outline: unset;
+    padding-top: 2rem;
+    padding-left: 1rem;
+
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #464646;
+
+}
+
+.descripcion__producto {
+    height: 7rem;
+    padding-top: 0;
+    padding-left: 1rem;
+   
+}
+.descripcion__producto::placeholder{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #A2A2A2;
+}
+
+.admin__section .admin__form label {
+    position: absolute;
+    left: 1rem;
+    top: 2px;
+
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+
+    color: #A2A2A2;
+
+}

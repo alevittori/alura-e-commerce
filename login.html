@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-commerce</title>
+
+    <!-- fuentes -->
+
+    <!-- style  -->
+    <link rel="stylesheet" href="./assets/css/recet.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/secciones/hero.css" />
+    <link rel="stylesheet" href="./assets/css/secciones/productos.css" />
+    <link rel="stylesheet" href="./assets/css/secciones/contacto.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/login/login.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="logo-busqueda__container">
+          <div class="logo">
+            <img
+              src="./assets/imagenes/logo/joystik.png"
+              alt="icono de un joistik"
+              class="logo__img"
+            />
+            <img
+              src="./assets/imagenes/logo/Alura.png"
+              alt="alura"
+              class="logo__alura"
+            />
+            <img
+              src="./assets/imagenes/logo/Geek.png"
+              alt="geek"
+              class="logo__geek"
+            />
+          </div>
+          <div class="busqueda__container">
+            <!-- <label for="busqueda" class="busqueda__label"></label> -->
+            <input
+              id="busqueda"
+              type="text"
+              placeholder="¿Que desea buscar?"
+              class="busqueda__input"
+            />
+            <img
+              src="./assets/imagenes/iconos/busqueda-ico.png"
+              alt=""
+              class="busqueda__icon"
+            />
+          </div>
+        </div>
+        <!-- <a href="#" class="login__link">Login</a> -->
+      </nav>
+    </header>
+    <main>
+      <section class="login">
+        <form action="" class="form__login">
+          <h2 class="login__title">Iniciar Sesión</h2>
+          <input
+            type="text"
+            class="input__email"
+            placeholder="Escriba su correo electronico"
+          />
+          <input
+            type="password"
+            class="input__contrasena"
+            placeholder="Escriba su contraseña"
+          />
+          <input type="submit" class="login__btn" value="Entrar" />
+        </form>
+      </section>
+      <section class="contacto">
+        <div class="contacto__logo">
+          <img
+            src="./assets/imagenes/logo/joystik.png"
+            alt="icono de un joistik"
+            class="logo__img"
+          />
+          <img
+            src="./assets/imagenes/logo/Alura.png"
+            alt="alura"
+            class="logo__alura"
+          />
+          <img
+            src="./assets/imagenes/logo/Geek.png"
+            alt="geek"
+            class="logo__geek"
+          />
+        </div>
+        <div class="list">
+          <ul class="contacto__list">
+            <li class="contacto__list-item">
+              <a class="contacto__item-link" href="">Quienes somos</a>
+            </li>
+            <li class="contacto__list-item">
+              <a class="contacto__item-link" href="">Politica de privacidad</a>
+            </li>
+            <li class="contacto__list-item">
+              <a class="contacto__item-link" href="">Programa de fidelidad</a>
+            </li>
+            <li class="contacto__list-item">
+              <a class="contacto__item-link" href="">Nuestras Tiendas</a>
+            </li>
+            <li class="contacto__list-item">
+              <a class="contacto__item-link" href="">Quiero ser franquiciado</a>
+            </li>
+            <li class="contacto__list-item">
+              <a class="contacto__item-link" href="">Anuncie aqui</a>
+            </li>
+          </ul>
+        </div>
+        <div class="form">
+          <form action="" class="contacto__form">
+            <h2 class="form__title">Hable con nosotros</h2>
+            <label for="nombre" class="label__nombre">Nombre</label>
+            <input type="text" id="nombre" class="form__input" />
+            <!-- <label for="mensaje"></label> -->
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              class="fomr__mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+            <button type="submit" class="form__submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Desarrollado por Vittori Alejandro <br />
+        2022
+      </p>
+    </footer>
+  </body>
+</html>

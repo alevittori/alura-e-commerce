@@ -1,5 +1,5 @@
 .header {
-    height: 10rem;
+    height: 6rem;
 
     background-color: #ffffff;
 
@@ -16,7 +16,7 @@
 .logo-busqueda__container{
     display: flex;
     align-items: center;
-    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
 }
 .logo {
     display: flex;

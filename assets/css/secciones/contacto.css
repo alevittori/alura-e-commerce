@@ -1,22 +1,32 @@
+.section__contacto{
+    background: #EAF2FD;
+
+}
 .contacto {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 120rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 64px;
-    gap: 115px;
-
-    /* width: 1440px; */
+    padding: 6rem;
     height: auto;
-
-    background: #EAF2FD;
 }
 
 .contacto__logo {
     display: flex;
     align-items: center;
+    flex-grow: 1;
+    width: 20%;
 }
 
-.contacto__list {}
+.list{
+    flex-grow: 1;
+    width: 20%;
+}
+.contacto__list {
+    flex-grow: 1;
+}
 
 .contacto__list-item {
     list-style: none;
@@ -32,18 +42,21 @@
 
 }
 
+.form{
+    width: 50%;
+}
 .contacto__form {
     display: flex;
     flex-direction: column;
+    flex-grow: 4;
     /* row-gap: 1rem; */
 }
 
 .form__title {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     color: #464646;
-
     margin-bottom: 2.2rem;
 
 }
@@ -73,12 +86,17 @@
     font-size: 1.6rem;
     line-height: 2rem;
     color: #464646;
+
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+
 }
 
 .fomr__mensaje {
     border: none;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
+
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
 
     margin-bottom: 2.2rem;
 }

@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 
-<body>
+<body class="contenedor">
     <header class="header">
+
         <nav class="header__nav">
             <div class="logo-busqueda__container">
                 <div class="logo">
@@ -186,33 +187,35 @@
                 </div>
             </div>
         </section>
-        <section class="contacto">
+        <section class="section__contacto">
+            <div class="contacto">
+                <div class="contacto__logo">
+                    <img src="./assets/imagenes/logo/joystik.png" alt="icono de un joistik" class="logo__img">
+                    <img src="./assets/imagenes/logo/Alura.png" alt="alura" class="logo__alura">
+                    <img src="./assets/imagenes/logo/Geek.png" alt="geek" class="logo__geek">
+                </div>
+                <div class="list">
+                    <ul class="contacto__list">
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Quienes somos</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Politica de privacidad</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Programa de fidelidad</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Nuestras Tiendas</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Quiero ser franquiciado</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Anuncie aqui</a></li>
+                    </ul>
+                </div>
+                <div class="form">
+                    <form action="" class="contacto__form">
+                        <h2 class="form__title">Hable con nosotros</h2>
+                        <label for="nombre" class="label__nombre">Nombre</label>
+                        <input type="text" id="nombre" class="form__input">
+                        <!-- <label for="mensaje"></label> -->
+                        <textarea name="mensaje" id="mensaje" class="fomr__mensaje" cols="30" rows="10"
+                            placeholder="Escribe tu mensaje"></textarea>
+                        <button type="submit" class="form__submit">Enviar mensaje</button>
+                    </form>
+                </div>
 
-            <div class="contacto__logo">
-                <img src="./assets/imagenes/logo/joystik.png" alt="icono de un joistik" class="logo__img">
-                <img src="./assets/imagenes/logo/Alura.png" alt="alura" class="logo__alura">
-                <img src="./assets/imagenes/logo/Geek.png" alt="geek" class="logo__geek">
-            </div>
-            <div>
-                <ul class="contacto__list">
-                    <li class="contacto__list-item" ><a class="contacto__item-link" href="">Quienes somos</a></li>
-                    <li class="contacto__list-item" ><a class="contacto__item-link" href="">Politica de privacidad</a></li>
-                    <li class="contacto__list-item" ><a class="contacto__item-link" href="">Programa de fidelidad</a></li>
-                    <li class="contacto__list-item" ><a class="contacto__item-link" href="">Nuestras Tiendas</a></li>
-                    <li class="contacto__list-item" ><a class="contacto__item-link" href="">Quiero ser franquiciado</a></li>
-                    <li class="contacto__list-item" ><a class="contacto__item-link" href="">Anuncie aqui</a></li>
-                </ul>
-            </div>
-            <div>
-                <form action="" class="contacto__form">
-                    <h2 class="form__title">Hable con nosotros</h2>
-                    <label for="nombre" class="label__nombre">Nombre</label>
-                    <input type="text" id="nombre" class="form__input">
-                    <!-- <label for="mensaje"></label> -->
-                    <textarea name="mensaje" id="mensaje" class="fomr__mensaje" cols="30" rows="10"
-                        placeholder="Escribe tu mensaje"></textarea>
-                    <button type="submit" class="form__submit">Enviar mensaje</button>
-                </form>
             </div>
         </section>
     </main>

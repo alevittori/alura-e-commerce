@@ -1,0 +1,21 @@
+/* container  */
+.galeria__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* tarjeta  */
+.card__producto{
+   max-width: 16rem;
+   height: 16rem;
+   border-radius: 8px;
+   /* overflow: hidden; */
+   margin: 20px;
+   text-align: center;
+
+
+}
+.card__img{
+    max-width: 16rem;
+    height: 8rem;
+    object-fit:cover;
+}

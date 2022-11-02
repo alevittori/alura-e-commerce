@@ -44,29 +44,34 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 2rem 0;
-    column-gap: 1.5rem;
+    /* margin: 2rem 0;
+    column-gap: 1.5rem; */
 
 
 }
+
 .card__producto {
-    width: 15%;
-    height: 30rem;
-    /* margin: 1rem 2rem; */
+    min-width: 16rem;
+    max-width: 30rem;
+    height: 16rem;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
 
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    row-gap: 2rem;
+    /* align-content: space-around; */
+    justify-content: space-around;
+    flex-wrap: wrap;
 
-    position: relative;
+
 }
 
 .card__img {
-    /* width: 5rem; */
-    width: 100%;
-    height: 50%;
-    display: block;
+    max-width: 16rem;
+    height: 8rem;
+    /* display: block; */
     object-fit: cover;
 
 }
@@ -91,6 +96,56 @@
     font-size: 16px;
     line-height: 19px;
     color: #2A7AE4;
-    
+
     text-decoration: none;
+}
+
+/* responsive  */
+
+@media screen and (max-width: 425px){
+    .galeria__productos {
+        /* width: 90%; */
+        margin: 0.5rem;
+    
+    }
+    
+    .galeria__header {
+        margin: 0.5rem 1.5rem;
+        justify-content: space-between;
+        column-gap: 2rem;
+    }
+    
+    .galeria__titulo {
+        font-size: 2rem;
+    }
+    
+    .ver__todo {
+        font-size: 1.4rem;
+    }
+    
+    .ico-flecha {
+        font-size: 1.2rem;
+    }
+    
+    .galeria__container {
+        width: 100%;
+    }
+    
+    .card__producto {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* row-gap: 2rem; */
+    }
+}
+@media screen and (max-width:768px) {
+    .galeria__titulo{
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+    }
+    
+    .card__producto{
+        height: 25rem;
+    }
 }

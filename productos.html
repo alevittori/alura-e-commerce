@@ -58,7 +58,8 @@
             />
           </div>
         </div>
-        <!-- <a href="#" class="login__link">Login</a> -->
+        <img src="./assets/imagenes/iconos/busqueda-ico.png" alt="" class="busqueda__icon--mobile">
+
       </nav>
     </header>
     <main>
@@ -68,18 +69,10 @@
           <a href="" class="add-producto__link">Agregar producto</a>
         </div>
         <div class="galeria__productos">
-          <div class="galeria__header">
-            <!-- <h2 class="galeria__titulo">Plantas</h2>
-            <a href="" class="ver__todo"
-              >Ver todo
-              <img
-                src="./assets/imagenes/iconos/arrow-ico.png"
-                alt="icono de flecha"
-                class="ico-flecha"
-            /></a> -->
-          </div>
+      
           <div class="galeria__container">
             <div class="card__producto">
+            
               <img
                 src="./assets/imagenes/productos/plantines/p_1.jpg"
                 alt=""
@@ -205,16 +198,7 @@
         </div>
 
         <div class="galeria__productos">
-          <!-- <div class="galeria__header">
-            <h2 class="galeria__titulo">Semillas</h2>
-            <a href="" class="ver__todo"
-              >Ver todo
-              <img
-                src="./assets/imagenes/iconos/arrow-ico.png"
-                alt="icono de flecha"
-                class="ico-flecha"
-            /></a>
-          </div> -->
+          
           <div class="galeria__container">
             <div class="card__producto">
               <img
@@ -340,16 +324,7 @@
         </div>
 
         <div class="galeria__productos">
-          <!-- <div class="galeria__header">
-            <h2 class="galeria__titulo">Herramientas</h2>
-            <a href="" class="ver__todo"
-              >Ver todo
-              <img
-                src="./assets/imagenes/iconos/arrow-ico.png"
-                alt="icono de flecha"
-                class="ico-flecha"
-            /></a>
-          </div> -->
+          
           <div class="galeria__container">
             <div class="card__producto">
               <img
@@ -475,70 +450,46 @@
         </div>
       </section>
 
-      <section class="contacto">
-        <div class="contacto__logo">
-          <img
-            src="./assets/imagenes/logo/joystik.png"
-            alt="icono de un joistik"
-            class="logo__img"
-          />
-          <img
-            src="./assets/imagenes/logo/Alura.png"
-            alt="alura"
-            class="logo__alura"
-          />
-          <img
-            src="./assets/imagenes/logo/Geek.png"
-            alt="geek"
-            class="logo__geek"
-          />
+      <section class="section__contacto">
+        <div class="contacto">
+            <div class="contacto__container">
+                <div class="contacto__logo">
+                    <img src="./assets/imagenes/logo/joystik.png" alt="icono de un joistik" class="contacto-logo__img">
+                    <img src="./assets/imagenes/logo/Alura.png" alt="alura" class="logo__alura">
+                    <img src="./assets/imagenes/logo/Geek.png" alt="geek" class="logo__geek">
+                </div>
+                <div class="list">
+                    <ul class="contacto__list">
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Quienes somos</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Politica de privacidad</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Programa de fidelidad</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Nuestras Tiendas</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Quiero ser franquiciado</a></li>
+                        <li class="contacto__list-item" ><a class="contacto__item-link" href="">Anuncie aqui</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="form">
+                <form action="" class="contacto__form">
+                    <h2 class="form__title">Hable con nosotros</h2>
+                    <label for="nombre" class="label__nombre">Nombre</label>
+                    <input type="text" id="nombre" class="form__input">
+                    <!-- <label for="mensaje"></label> -->
+                    <textarea name="mensaje" id="mensaje" class="fomr__mensaje" cols="30" rows="10"
+                        placeholder="Escribe tu mensaje"></textarea>
+                    <button type="submit" class="form__submit">Enviar mensaje</button>
+                </form>
+            </div>
+
         </div>
-        <div class="list">
-          <ul class="contacto__list">
-            <li class="contacto__list-item">
-              <a class="contacto__item-link" href="">Quienes somos</a>
-            </li>
-            <li class="contacto__list-item">
-              <a class="contacto__item-link" href="">Politica de privacidad</a>
-            </li>
-            <li class="contacto__list-item">
-              <a class="contacto__item-link" href="">Programa de fidelidad</a>
-            </li>
-            <li class="contacto__list-item">
-              <a class="contacto__item-link" href="">Nuestras Tiendas</a>
-            </li>
-            <li class="contacto__list-item">
-              <a class="contacto__item-link" href="">Quiero ser franquiciado</a>
-            </li>
-            <li class="contacto__list-item">
-              <a class="contacto__item-link" href="">Anuncie aqui</a>
-            </li>
-          </ul>
-        </div>
-        <div class="form">
-          <form action="" class="contacto__form">
-            <h2 class="form__title">Hable con nosotros</h2>
-            <label for="nombre" class="label__nombre">Nombre</label>
-            <input type="text" id="nombre" class="form__input" />
-            <!-- <label for="mensaje"></label> -->
-            <textarea
-              name="mensaje"
-              id="mensaje"
-              class="fomr__mensaje"
-              cols="30"
-              rows="10"
-              placeholder="Escribe tu mensaje"
-            ></textarea>
-            <button type="submit" class="form__submit">Enviar mensaje</button>
-          </form>
-        </div>
-      </section>
+    </section>
     </main>
     <footer>
       <p>
-        Desarrollado por Vittori Alejandro <br />
-        2022
+          Desarrollado por <a class="footer__link" href="https://www.linkedin.com/in/alejandro-vittori-631221247/">Alejandro Vittori</a>  <br>
+          2022
       </p>
-    </footer>
+  </footer>
   </body>
 </html>

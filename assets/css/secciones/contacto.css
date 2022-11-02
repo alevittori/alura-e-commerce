@@ -145,7 +145,7 @@
         align-items: center;
         width: 100%;
     }
-    .logo__img{
+    .contacto-logo__img{
         width: 3.5rem;
         margin-right: 0.5rem;
     }
@@ -160,6 +160,11 @@
     }
     .form__input{
         height: 4.5rem;
+    }
+    .form__submit{
+        width: 12rem;
+        height: 4.5rem;
+        font-size: 1.4rem;
     }
 }
 

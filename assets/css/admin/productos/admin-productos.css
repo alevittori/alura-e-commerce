@@ -33,12 +33,17 @@
     justify-content: center;
     align-items: center;
 }
-
+.galeria__header{
+    display: none;
+}
+.galeria__container{
+    justify-content: center;
+}
 .delet-ico {
     position: absolute;
    
     right: 25%;
-    top: 3%;
+    top: 8%;
 }
 .delet-ico:hover {
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
@@ -49,11 +54,39 @@
     position: absolute;
    
     right: 5%;
-    top: 3%;
+    top: 8%;
 
     width: 1.8rem;
 }
 .edit-ico:hover{
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
 
+}
+
+/* responsive  */
+@media screen and (max-width:425px) {
+    .productos__nav{
+        flex-direction: column;
+    }
+    .productos__title--main{
+        font-size: 2.2rem;
+    }
+    .add-producto__link{
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        height: 4rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .logo-busqueda__container{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .productos__nav{
+        width: 135rem;
+    }
+    .edit-ico, .delet-ico{
+        top: 10%;
+    }
 }
